@@ -13,6 +13,6 @@ class Book:
 
 
 class Save:
-    def __init__(self,filename,item):
+    def __init__(self,filename,item:Book):
         with open(f'{filename}.txt', "a") as f:
             f.write(f'{item.title},{item.author},{item.content}')
