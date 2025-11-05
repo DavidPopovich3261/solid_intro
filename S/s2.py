@@ -10,8 +10,13 @@ class Student:
 
 
 
-class average_grade:
+class Average_grade:
     def __init__(self,student:Student):
         self.average=sum(student.grades)//len(student.grades)
 
 
+# s=Student("fkfyuf0",[98,10,75,65])
+# s.average_grade()
+# print(s.average)
+# a=Average_grade(s)
+# print(a.average)

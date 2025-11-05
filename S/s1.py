@@ -16,3 +16,8 @@ class Save:
     def __init__(self,filename,item:Book):
         with open(f'{filename}.txt', "a") as f:
             f.write(f'{item.title},{item.author},{item.content}')
+
+
+# s=Book("jhyjg","gcujdc",'djty')
+# s.save_to_file('filename')
+# Save('filename2',s)
